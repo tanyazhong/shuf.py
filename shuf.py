@@ -56,7 +56,7 @@ With no FILE, or when FILE is -, read standard input.""")
             parser.error(f"extra operand: '{args.FILE}'")
 
         #if not make a list from integers
-        ints = range_string.split('-', 1)
+        ints = range_string.split('-')
 
         #attempt to convert the list items to integers
         if len(ints) != 2:
